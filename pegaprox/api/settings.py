@@ -796,7 +796,7 @@ def perform_pegaprox_update():
 
             # try GitHub API to get full file tree
             try:
-                api_url = f"{GITHUB_REPO_URL.replace('github.com', 'api.github.com/repos')}/git/trees/main?recursive=1"
+                api_url = f"{GITHUB_REPO_URL.replace('github.com', 'api.github.com/repos')}/git/trees/{GITHUB_BRANCH}?recursive=1"
                 api_resp = requests.get(api_url, timeout=15)
                 if api_resp.status_code == 200:
                     all_repo_files = [item['path'] for item in api_resp.json().get('tree', [])

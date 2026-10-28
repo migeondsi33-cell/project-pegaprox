@@ -8336,8 +8336,8 @@
                 // Auth
                 login: 'Login',
                 logout: 'Logout',
-                loginTitle: 'Sign in to PegaProx',
-                loginSubtitle: 'PegaProx Cluster Management for Proxmox VE',
+                loginTitle: 'Sign in',
+                loginSubtitle: 'Proxmox server administration',
                 usernameLabel: 'Username',
                 passwordLabel: 'Password',
                 passwordPolicyHint: 'Min. 8 characters, uppercase, lowercase & number required',
@@ -28420,8 +28420,8 @@
                 // Auth
                 login: 'Connexion',
                 logout: 'Déconnexion',
-                loginTitle: 'Connexion à PegaProx',
-                loginSubtitle: 'Gestion de cluster PegaProx',
+                loginTitle: 'Connexion',
+                loginSubtitle: 'Administration des serveurs Proxmox',
                 usernameLabel: 'Nom d\'utilisateur',
                 passwordLabel: 'Mot de passe',
                 passwordPolicyHint: 'Min. 8 caractères, majuscules, minuscules et chiffre requis',

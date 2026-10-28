@@ -190,7 +190,8 @@
                                     e.target.outerHTML = '<div class="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-proxmox-orange to-orange-600 flex items-center justify-center shadow-lg shadow-orange-500/30"><svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2" /></svg></div>';
                                 }}
                             />
-                            <h1 className="text-3xl font-bold text-white mb-2">PegaProx</h1>
+                            <h1 className="text-3xl font-bold text-white mb-2">DSI Santé Infra</h1>
+                            <p className="text-xs text-gray-500 mb-2">Powered by PegaProx</p>
                             <p className="text-gray-400">{t('loginSubtitle')}</p>
                         </div>
                         

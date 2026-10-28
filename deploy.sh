@@ -25,11 +25,11 @@ NC='\033[0m'
 INSTALL_DIR="/opt/PegaProx"
 SERVICE_USER="pegaprox"
 SERVICE_GROUP="pegaprox"
-GITHUB_REPO="https://github.com/PegaProx/project-pegaprox.git"
+GITHUB_REPO="https://github.com/migeondsi33-cell/project-pegaprox.git"  # DSI Santé : fork
 # MK May 2026 (#417 follow-up, elektronen): allow installing from a specific
 # branch via `PEGAPROX_BRANCH=Testing curl ... | sudo bash`. Default still main
 # so existing curl-pipe invocations don't change behaviour.
-GITHUB_BRANCH="${PEGAPROX_BRANCH:-main}"
+GITHUB_BRANCH="${PEGAPROX_BRANCH:-dsisante}"  # DSI Santé : branche du fork
 PYTHON_FILE="pegaprox_multi_cluster.py"
 
 # Default options

@@ -473,7 +473,7 @@
                             />
                             <span className="cloud-nav-brand-fallback" style={{ display: 'none' }}><Icons.Cloud /></span>
                         </span>
-                        {!collapsed && <span className="cloud-nav-brand-text">PegaProx</span>}
+                        {!collapsed && <span className="cloud-nav-brand-text">DSI Santé Infra</span>}
                         {!collapsed && <span className="cloud-chip cloud-chip-preview">PREVIEW</span>}
                     </div>
                     <div className="cloud-nav-scroll">

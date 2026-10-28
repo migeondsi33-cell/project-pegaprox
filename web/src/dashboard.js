@@ -19855,10 +19855,10 @@
                                         </svg>
                                     </div>
                                     {isCorporate ? (
-                                        <span className="text-[13px] font-semibold">PegaProx</span>
+                                        <span className="text-[13px] font-semibold">DSI Santé Infra</span>
                                     ) : (
                                         <div className="text-left">
-                                            <h1 className="text-xl font-bold">PegaProx</h1>
+                                            <h1 className="text-xl font-bold">DSI Santé Infra</h1>
                                             <p className="text-xs text-gray-500">{t('clusterManagement')}</p>
                                         </div>
                                     )}
