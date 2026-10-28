@@ -8,7 +8,7 @@ import os
 from pathlib import Path
 
 # Version
-PEGAPROX_VERSION = "1.4.1"
+PEGAPROX_VERSION = "1.4.1.1"  # DSI Santé : 1.4.1 officielle + révision DSI Santé (voir version.json)
 PEGAPROX_BUILD = "2026.10.24"
 
 # File Paths & Directories
